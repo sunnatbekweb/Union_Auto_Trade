@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Eurostile Extended Regular;
+    src: url(../assets/fonts/EuroStyle_Normal.ttf);
+}
+
+@font-face {
+    font-family: Eurostile Extended Bold;
+    src: url(../assets/fonts/eurostile.TTF);
+}
+
+#info {
+    padding-top: 90px;
+    margin-bottom: 140px;
+
+    .grid {
+        display: grid;
+        grid-column: 2;
+        grid-row: 2;
+        gap: 24px;
+
+        h1 {
+            margin: 0;
+            font-family: 'Eurostile Extended Regular';
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 130%;
+            letter-spacing: 0.12em;
+            color: #FFFFFF;
+        }
+
+        button {
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid #4F4F4F;
+            backdrop-filter: blur(2px);
+            border-radius: 10px;
+            width: 150px;
+            height: 65px;
+            font-family: 'Eurostile Extended Regular';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 130%;
+            letter-spacing: 0.12em;
+            color: #FFFFFF;
+            cursor: pointer;
+
+            &:hover {
+                background: #FFFFFF;
+                color: #000000;
+            }
+        }
+
+        .btn {
+            display: flex;
+            justify-content: end;
+        }
+
+        .cfs {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            grid-row: 1/3;
+            grid-column: 1;
+            width: 658px;
+            height: 640px;
+            background-image: url(../assets/images/hero_image1.png);
+            padding: 30px;
+
+        }
+
+        .autoparts {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            grid-row-end: 2;
+            background-image: url(../assets/images/hero_image2.png);
+            padding: 30px;
+            width: 658px;
+            height: 308px;
+        }
+
+        .servicing {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            background-image: url(../assets/images/hero_image3.png);
+            padding: 30px;
+            width: 658px;
+            height: 308px;
+        }
+    }
+}

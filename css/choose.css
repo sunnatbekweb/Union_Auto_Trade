@@ -1,0 +1,11 @@
+@font-face {
+  font-family: Eurostile Extended Regular;
+  src: url(../assets/fonts/EuroStyle_Normal.ttf);
+}
+@font-face {
+  font-family: Eurostile Extended Bold;
+  src: url(../assets/fonts/eurostile.TTF);
+}
+#choose {
+  margin-bottom: 60px;
+}/*# sourceMappingURL=choose.css.map */

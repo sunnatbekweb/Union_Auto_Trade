@@ -1,0 +1,165 @@
+@font-face {
+    font-family: Eurostile Extended Regular;
+    src: url(../assets/fonts/EuroStyle_Normal.ttf);
+}
+
+@font-face {
+    font-family: Eurostile Extended Bold;
+    src: url(../assets/fonts/eurostile.TTF);
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: transparent;
+    backdrop-filter: blur(5px);
+
+    .header_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        height: 55px;
+
+        .selections {
+            display: flex;
+            gap: 47px;
+
+            select {
+                background: transparent;
+                border: none;
+                color: #FFFFFF;
+
+                option {
+                    background: transparent;
+                    color: #000;
+                }
+            }
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+
+            .call {
+                display: flex;
+                align-items: center;
+                gap: 21px;
+
+                a {
+                    font-family: 'Eurostile Extended Regular';
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 130%;
+                    letter-spacing: 0.02em;
+                    color: #FFFFFF;
+                    text-decoration: none;
+
+                    &:hover {
+                        color: #949494;
+                    }
+                }
+
+                button {
+                    background: #000;
+                    text-transform: uppercase;
+                    width: 250px;
+                    height: 55px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-family: 'Inter';
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 130%;
+                    letter-spacing: 0.09em;
+                    color: #FFFFFF;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: #FFFFFF;
+                        color: #000;
+                        border: none;
+                    }
+                }
+            }
+
+            .social {
+                display: flex;
+                align-items: center;
+                gap: 20px;
+
+                a {
+                    text-decoration: none;
+                }
+
+                i {
+                    font-size: 26px;
+                    color: #FFFFFF;
+                    display: flex;
+                    padding: 5px;
+                }
+
+                .whatsapp:hover {
+                    background: #25D366;
+                    border-radius: 50%;
+                    padding: 5px;
+                }
+
+                .telegram {
+                    font-size: 24px;
+                    padding: 5px;
+
+                    &:hover {
+                        background: #0088cc;
+                        border-radius: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        height: 60px;
+        gap: 273px;
+
+        &__logo {
+            margin-top: 4px;
+            font-size: 24px;
+            text-decoration: none;
+        }
+
+        &__list {
+            display: flex;
+            column-gap: 8rem;
+
+            &--item {
+                list-style-type: none;
+
+                &-link {
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    color: #FFFFFF;
+
+                    &:hover {
+                        color: silver;
+                    }
+                }
+            }
+
+        }
+
+    }
+
+    .line {
+        width: 100%;
+        height: 1px;
+        color: #FFFFFF;
+        background: #FFFFFF;
+    }
+}

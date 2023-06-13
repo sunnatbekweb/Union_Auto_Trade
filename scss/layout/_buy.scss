@@ -1,0 +1,272 @@
+@font-face {
+    font-family: Eurostile Extended Regular;
+    src: url(../assets/fonts/EuroStyle_Normal.ttf);
+}
+
+@font-face {
+    font-family: Eurostile Extended Bold;
+    src: url(../assets/fonts/eurostile.TTF);
+}
+
+#buy {
+    margin-top: 165px;
+    margin-bottom: 167px;
+
+    h1 {
+        font-family: 'Eurostile Extended Bold';
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 145%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 24px;
+    }
+
+    .buy_wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 13px;
+        row-gap: 18px;
+        margin-bottom: 110px;
+
+        .application {
+            grid-column: 1;
+            grid-row: 1;
+            width: 325px;
+            height: 250px;
+            border: 1px solid #4F4F4F;
+            border-radius: 10px;
+            padding: 20px 16px;
+
+            h2 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+
+            h3 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                margin-top: 40px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                max-width: 385px;
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        .treaty {
+            grid-column: 1 /span 1;
+            width: 560px;
+            height: 250px;
+            border: 1px solid #4F4F4F;
+            border-radius: 10px;
+            padding: 20px 16px;
+
+            h2 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+
+            h3 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                margin-top: 40px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                max-width: 385px;
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        .payment {
+            width: 428px;
+            height: 250px;
+            border: 1px solid #4F4F4F;
+            border-radius: 10px;
+            padding: 20px 16px;
+
+            h2 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+
+            h3 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                margin-top: 40px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                max-width: 385px;
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        .delivery {
+            width: 545px;
+            height: 245px;
+            border: 1px solid #4F4F4F;
+            border-radius: 10px;
+            padding: 20px 16px;
+
+            h2 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+
+            h3 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                margin-top: 40px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                max-width: 385px;
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+        }
+
+        .request {
+            width: 781px;
+            height: 245px;
+            border: 1px solid #4F4F4F;
+            border-radius: 10px;
+            padding: 20px 16px;
+
+            h2 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 400;
+                font-size: 32px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+
+            h3 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 700;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                margin-top: 40px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                max-width: 385px;
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+
+            .button {
+                display: flex;
+                justify-content: space-between;
+
+                button {
+                    width: 285px;
+                    height: 45px;
+                    border: 1px solid #4F4F4F;
+                    border-radius: 8px;
+                    background: transparent;
+                    cursor: pointer;
+
+                    &:hover {
+                        background: #FFFFFF;
+                    }
+                }
+            }
+        }
+    }
+
+    .buy_info {
+        height: 700px;
+        background-image: url(../assets/images/audi.jpg);
+        display: flex;
+        align-items: end;
+        padding: 25px;
+
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            gap: 10px;
+        }
+
+        &-card {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 30px 15px;
+            width: 315px;
+            height: 325px;
+            background: rgba(255, 255, 255, 0.6);
+            backdrop-filter: blur(14.5px);
+            border-radius: 10px;
+
+            h4 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+
+            p {
+                font-family: 'Eurostile Extended regular';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+            }
+        }
+    }
+}

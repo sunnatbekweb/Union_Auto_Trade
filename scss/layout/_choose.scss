@@ -1,0 +1,124 @@
+@font-face {
+    font-family: Eurostile Extended Regular;
+    src: url(../assets/fonts/EuroStyle_Normal.ttf);
+}
+
+@font-face {
+    font-family: Eurostile Extended Bold;
+    src: url(../assets/fonts/eurostile.TTF);
+}
+
+#choose {
+    margin-bottom: 60px;
+    display: flex;
+
+    h1 {
+        font-family: 'Eurostile Extended Bold';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 130%;
+        text-align: center;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #000000;
+        margin-bottom: 20px;
+    }
+
+    .btns {
+        display: flex;
+
+        .bodyType {
+            width: 670px;
+            height: 65px;
+            border: 1px solid #e6e6e6;
+            background: transparent;
+            border-radius: 10px 0px 0px 10px;
+            cursor: pointer;
+            font-family: 'Eurostile Extended Regular';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: #000000;
+        }
+
+        .brand {
+            width: 670px;
+            height: 65px;
+            border: 1px solid #e6e6e6;
+            background: transparent;
+            border-radius: 0px 10px 10px 0px;
+            cursor: pointer;
+            font-family: 'Eurostile Extended Regular';
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 130%;
+            letter-spacing: 0.01em;
+            text-transform: uppercase;
+            color: #000000;
+
+        }
+
+        .choose_btns:hover {
+            background-color: #4071CB !important;
+            color: #FFFFFF !important;
+        }
+
+        .choose_btns:focus {
+            background-color: #4071CB !important;
+            color: #FFFFFF !important;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 62px;
+        margin-bottom: 40px;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+
+            h2 {
+                font-family: 'Eurostile Extended Bold';
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 130%;
+                letter-spacing: 0.01em;
+                color: #4071CB;
+            }
+        }
+    }
+
+    .show_btn {
+        text-align: center;
+
+        button {
+            width: 240px;
+            height: 40px;
+            border: 1px solid #4071CB;
+            border-radius: 8px;
+            font-family: 'Eurostile Extended Regular';
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 130%;
+            letter-spacing: 0.01em;
+            color: #4071CB;
+            cursor: pointer;
+
+            &:hover {
+                background: #4071CB;
+                color: #FFFFFF;
+            }
+
+            &:active {
+                background: #4071CB;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
